@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formu.css">
+    <script src="formu.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="Tiernas-Imágenes-De-Perritos-y-Gatitos.ico">
+    <title>Formulario para adoptar</title>
+    <h1>¿Queres adoptar un perro/gato?</h1>
+    <div class="img">
+    <img src="https://www.lavanguardia.com/r/GODO/LV/p4/Economia/2017/11/18/Recortada/img_lfarras_20171118-124246_imagenes_lv_terceros_istock-655465208-kcUC-U432974115312dxE-992x558@LaVanguardia-Web.jpg">
+    </div>
+</head>
+<body>
+    <h2>Completa este Formulario</h2>
+    <p>
+      Esta pagina te invita a dejar tus datos para adoptar un animal sin hogar, se evaluara la informacion y se hara una entrevista con el adoptante.
+        (Si queres adoptar un perro o un gato, dejanos tus datos y contesta esta breve encuesta para poder realizar una seleccion adecuada.)
+    </br>
+    <form>
+    <div class="informacionPersonal">
+    <label for="">Ingrese su Nombre:</label> <input type="text" name="nombre" required>
+    </br>
+    </br>
+    <label for="">Ingrese su Apellido:</label><input type="text" name="apellido" required>
+    </br>
+    </br>
+    <input type="radio" name="sexo" value="female">Mujer
+    <input type="radio" name="sexo" value="male">Hombre
+    </br>
+    </br>
+    <input type="number" name="numero" min="18" max="50">Edad
+    </br>
+    </br>
+    Fecha de Nacimiento:<input type="date" name="date">
+    </br>
+    </br>
+    <label for="">Ingrese su Direccion:</label><input type="text" name="datos">
+    </br>
+    </br>
+    <label for="">Ingrese su Telefono: </label><input type="number" name="datos" required>  
+    <br/>
+    <br/>
+    Email: <input type="email" name="correo" id="correo" required>
+    <br/>
+    <br/>
+    <label for="">Pais: </label><input type="text" name="datos">
+    <br/>
+    </br>
+    <label for="">Provincia: </label><input type="text" name="datos">
+    <br/>
+    <br/>
+    <label for="">Localidad: </label><input type="text" name="datos">
+   
+    <br/>
+    <br/>
+    <label>Adopcion: </label>
+    <br/>
+    <textarea placeholder="¿Porque queres adoptar?" name="preguntas"></textarea>
+    <p>¿Que animal queres adoptar?: 
+        <select name="animales" required>
+          <option>Gato</option>
+          <option>Perro</option>
+        </select>
+        <br/>
+        ¿Sexo?: 
+        <select name="animales"required>
+          <option>Hembra</option>
+          <option>Macho</option>
+        </select>
+        <br/>
+        ¿Te compromotes a tener las vacunas al dia, desparacitarlo y castrarlo?:
+        <select name="animales" required>
+          <option>Si</option>
+          <option>No</option>
+        </select>
+    </p>
+    <textarea placeholder="¿Tenes otros animales? Especifique" name="preguntas"></textarea>
+    <br/>
+    <br/>
+    <div class="item">
+   <label>Tu vivienda es:</label>
+    <br/>
+    <input type="radio" name="info">Vivienda propia y permiten animales
+    <br/>
+    <input type="radio" name="info">Vivienda propia pero no permiten animales
+    <br/>
+    <input type="radio" name="info">Alquilo y permiten animales
+    <br/>
+    <input type="radio" name="info">Alquilo y no permiten animales
+    <br/>
+    <br/>
+    <label>Tu vivienda tiene:</label>
+    <br/>
+    <input type="radio" name="info">Balcon 
+    <br/>
+    <input type="radio" name="info">Patio 
+    <br/>
+    <input type="radio" name="info">Terraza
+    <br/>
+    <input type="radio" name="info">Ninguno
+    <br/>
+    </div>
+    <br/>
+    <textarea placeholder="¿Porque deberiamos elegirte como adoptante?" name="preguntas" required></textarea>
+    <br/>
+    <br/>
+    <br/>
+    <input onclick="validar()" type="button" value="Enviar" id="enviar" class="boton">
+        <input type="reset" class="boton">
+    </div>
+   
+   
+    </form>
+    
+
+    
+    </p>
+</body>
+<p>
+
+</p>
+    
+</html>
+   
